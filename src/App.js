@@ -9,13 +9,23 @@ function Square({ value, onClick }) {
     </button>
   );
 }
+
+function renderSquare(i) {
+  return (
+    <Square
+      value={i}
+      onClick={null}
+    />
+  );
+}
+
 function Game() {
   return (
     <div className="container">
       <div className="game">
         <div className="game-board">
           <div className="board-row">
-            <Square value={0} onClick={null} />
+            
             <Square value={1} onClick={null} />
             <Square value={2} onClick={null} />
           </div>
@@ -35,14 +45,7 @@ function Game() {
   );
 }
 
-function renderSquare(i) {
-  return (
-    <Square 
-      value={i}
-      onClick={null}
-    />
-  );
-}
+
 
 function App() {
   return (
