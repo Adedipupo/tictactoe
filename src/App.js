@@ -3,7 +3,9 @@ import React, { useState } from "react";
 function Game() {
   return (
   <div className="container">
-    
+    <div className="game">
+
+    </div>
   </div>
   );
 }
