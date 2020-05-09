@@ -6,7 +6,7 @@ function Game() {
     <div className="game">
     <div className="game-board">
       <div className="board-row">
-
+        <Square />
       </div>
     </div>
     </div>
