@@ -7,6 +7,7 @@ function Game() {
     <div className="game-board">
       <div className="board-row">
         <Square  value={0} onClick={null}/>
+        <Square value={1} onClick={null} />
       </div>
     </div>
     </div>
