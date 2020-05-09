@@ -25,7 +25,7 @@ function Game() {
       <div className="game">
         <div className="game-board">
           <div className="board-row">
-            
+            {renderSquare(0)}
             <Square value={1} onClick={null} />
             <Square value={2} onClick={null} />
           </div>
