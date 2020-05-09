@@ -5,7 +5,9 @@ function Game() {
   <div className="container">
     <div className="game">
     <div className="game-board">
+      <div className="board-row">
 
+      </div>
     </div>
     </div>
   </div>
