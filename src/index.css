@@ -3,3 +3,8 @@ body {
   margin: 40px;
   background: #26a69a;
 }
+
+ol,
+ul {
+  padding-left: 30px;
+}
