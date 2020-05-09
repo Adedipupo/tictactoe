@@ -49,3 +49,8 @@ ul {
   flex-direction: row;
   justify-content: center;
 }
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
