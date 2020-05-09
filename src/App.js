@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 
 function Game() {
-  
+  return();
 }
 
 function Square ({ value , onClick}) {
