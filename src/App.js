@@ -1,7 +1,11 @@
 import React,{useState} from 'react';
 
 
-function Square({ value , onClick}) {
+function Game() {
+  
+}
+
+function Square ({ value , onClick}) {
   return(
     <button className="square" onClick={onClick}>
       {value}
@@ -12,7 +16,7 @@ function Square({ value , onClick}) {
 function App() {
   return (
     <div>
-     
+     <Square />
     </div>
   );
 }
