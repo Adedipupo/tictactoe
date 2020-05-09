@@ -10,6 +10,11 @@ function Game() {
             <Square value={1} onClick={null} />
             <Square value={2} onClick={null} />
           </div>
+          <div className="board-row">
+            <Square value={3} onClick={null} />
+            <Square value={4} onClick={null} />
+            <Square value={5} onClick={null} />
+          </div>
         </div>
       </div>
     </div>
