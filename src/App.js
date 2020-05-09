@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 
+
+
+function Square({ value, onClick }) {
+  return (
+    <button className="square" onClick={onClick}>
+      {value}
+    </button>
+  );
+}
 function Game() {
   return (
     <div className="container">
@@ -26,18 +35,10 @@ function Game() {
   );
 }
 
-function Square({ value, onClick }) {
-  return (
-    <button className="square" onClick={onClick}>
-      {value}
-    </button>
-  );
-}
-
 function App() {
   return (
     <div>
-      <Square />
+      <Game />
     </div>
   );
 }
