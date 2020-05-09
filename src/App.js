@@ -1,12 +1,15 @@
-import React,{useState} from 'react';
-
+import React, { useState } from "react";
 
 function Game() {
-  return();
+  return (
+  <div>
+
+  </div>
+  );
 }
 
-function Square ({ value , onClick}) {
-  return(
+function Square({ value, onClick }) {
+  return (
     <button className="square" onClick={onClick}>
       {value}
     </button>
@@ -16,7 +19,7 @@ function Square ({ value , onClick}) {
 function App() {
   return (
     <div>
-     <Square />
+      <Square />
     </div>
   );
 }
