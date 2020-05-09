@@ -4,7 +4,9 @@ function Game() {
   return (
   <div className="container">
     <div className="game">
+    <div className="game-board">
 
+    </div>
     </div>
   </div>
   );
