@@ -36,8 +36,8 @@ function Game() {
           </div>
           <div className="board-row">
             {renderSquare(6)}
-            
-            
+            {renderSquare(7)}
+            {renderSquare(8)}
           </div>
         </div>
       </div>
