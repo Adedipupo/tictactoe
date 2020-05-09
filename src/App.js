@@ -31,7 +31,7 @@ function Game() {
           </div>
           <div className="board-row">
             {renderSquare(3)}
-            
+            {renderSquare(4)}
             
           </div>
           <div className="board-row">
