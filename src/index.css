@@ -54,3 +54,10 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+.game-info {
+  font-size: 48px;
+  color: #424242;
+  margin-top: 20px;
+  text-align: center;
+}
