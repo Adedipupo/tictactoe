@@ -2,16 +2,17 @@ import React, { useState } from "react";
 
 function Game() {
   return (
-  <div className="container">
-    <div className="game">
-    <div className="game-board">
-      <div className="board-row">
-        <Square  value={0} onClick={null}/>
-        <Square value={1} onClick={null} />
+    <div className="container">
+      <div className="game">
+        <div className="game-board">
+          <div className="board-row">
+            <Square value={0} onClick={null} />
+            <Square value={1} onClick={null} />
+            <Square value={2} onClick={null} />
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-  </div>
   );
 }
 
