@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 function Game() {
   return (
-  <div>
-
+  <div className="container">
+    
   </div>
   );
 }
