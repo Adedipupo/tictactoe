@@ -2,7 +2,11 @@ import React from 'react';
 
 
 function Square() {
-  return();
+  return(<div>
+    <button>
+      
+    </button>
+  </div>);
 }
 
 function App() {
