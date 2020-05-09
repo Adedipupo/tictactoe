@@ -36,7 +36,11 @@ function Game() {
 }
 
 function renderSquare(i) {
-  return ();
+  return (
+    <Square 
+    
+    />
+  );
 }
 
 function App() {
