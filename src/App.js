@@ -38,7 +38,8 @@ function Game() {
 function renderSquare(i) {
   return (
     <Square 
-    
+      value={i}
+      onClick={null}
     />
   );
 }
